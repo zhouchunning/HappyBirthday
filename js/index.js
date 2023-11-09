@@ -25,7 +25,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#icon heart');
+        S.UI.simulate('|#icon caimi');
       }
 
       S.Drawing.loop(function () {
@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||祝|明芝O|生日快乐|烟火向星辰|所愿皆成真|哦，对了|还有明珠O|也祝你|生日快乐哈|#icon heart|#icon heart-empty|#icon heart');
+        S.UI.simulate('|#countdown 3||祝|明芝O|生日快乐|烟火向星辰|所愿皆成真|哦，对了|还有明珠O|也祝你|生日快乐哈|#icon caimi|#icon xiao|#icon zheng');
       }
 
       S.Drawing.loop(function () {
